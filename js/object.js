@@ -9,4 +9,9 @@ let allNumbers = {
 allNumbers.f = 60
 allNumbers.g = 70
 allNumbers.h = 80
-console.log(allNumbers)
+// console.log(allNumbers)
+
+for(a in allNumbers){
+    var iden = allNumbers[a]
+    console.log(a+' : '+iden)
+}
