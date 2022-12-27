@@ -13,9 +13,9 @@ console.log(myMap.values())
 for( mykeys of myMap.keys()){
     console.log(mykeys)
 }
-for( myValues of myMap.values()){
-    console.log(myValues)
-}
+// for( myValues of myMap.values()){
+//     console.log(myValues)
+// }
 
 console.log(myMap.get('item_one'))
 
